@@ -3,6 +3,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
 .header {
@@ -27,5 +29,15 @@ body {
   width: 500px;
   height: 500px;
   display: grid;
-  border: 1px solid black;
+  border: 2px solid black;
+}
+
+.cell {
+  background-color: white;
+  transition: background-color 0.2s ease;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  margin-bottom: 20px;
 }

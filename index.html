@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-A-Sketch</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -9,18 +11,21 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
   </head>
   <body>
     <h1>Etch-A-Sketch</h1>
+
     <div class="header">
       <h6>Select the size</h6>
-      <button id="popup" class="btn btn-danger">Select</button>
+      <button id="popup" class="btn btn-secondary">Select</button>
     </div>
+
     <div class="board"></div>
+
     <div class="footer">
       <button class="btn btn-dark">Black</button>
+      <button class="btn btn-danger">Red</button>
       <button class="btn btn-warning">Random</button>
       <button class="btn btn-primary">Reset</button>
     </div>
